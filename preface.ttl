@@ -1,0 +1,23 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix : <http://ldf.kloud.one/ontorugrammaform#> .
+@base <http://ldf.kloud.one/ontorugrammaform> .
+
+# Author: Yana Pavlova
+# Created: 17.05.2018
+# Description: Morphosyntactic properties of russian words
+
+<http://ldf.kloud.one/ontorugrammaform> a owl:Ontology ;
+                                owl:versionIRI <http://ldf.kloud.one/ontorugrammaform/2.0.0> ;
+                                dc:date "17-05-2018" ;
+                                rdfs:label "OntoRuGrammaForm"@en ;
+                                rdfs:title "Онтологический словарь грамматических форм русского языка"@ru ,
+                                            "Ontology-based dictionary of russian grammatical forms"@en .
+
+# Individuals
+

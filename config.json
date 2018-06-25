@@ -1,0 +1,122 @@
+{
+    "type": {
+        "част": "lexinfo:partOfSpeech lexinfo:particle",
+        "межд": "lexinfo:partOfSpeech lexinfo:interjection",
+        "прл": "lexinfo:partOfSpeech lexinfo:adjective",
+        "прч": "lexinfo:partOfSpeech lexinfo:participle",
+        "сущ": "lexinfo:partOfSpeech lexinfo:noun",
+        "нар": "lexinfo:partOfSpeech lexinfo:adverb",
+        "гл": "lexinfo:partOfSpeech lexinfo:verb",
+        "дееп": "lexinfo:partOfSpeech lexinfo:gerund",
+        "союз": "lexinfo:partOfSpeech lexinfo:conjunction",
+        "предик": "lexinfo:partOfSpeech lexinfo:predicativeAdverb",
+        "предл": "lexinfo:partOfSpeech lexinfo:preposition",
+        "ввод": "lexinfo:partOfSpeech lexinfo:stopWords",
+        "мест": "lexinfo:partOfSpeech lexinfo:pronoun",
+        "числ": "lexinfo:partOfSpeech lexinfo:numeral",
+        "сущ-мест": "lexinfo:partOfSpeech lexinfo:pronoun",
+        "прл-мест": "lexinfo:partOfSpeech lexinfo:pronoun",
+        "нар-мест": "lexinfo:partOfSpeech lexinfo:pronoun",
+        "NULL": ""
+    },
+    "type_sub": {
+        "поряд": "lexinfo:partOfSpeech lexinfo:ordinalAdjective",
+        "кол": "lexinfo:partOfSpeech lexinfo:cardinalNumeral",
+        "собир": "lexinfo:partOfSpeech lexinfo:collectiveNumeral",
+        "врем": "lexinfo:partOfSpeech lexinfo:tenseAdverb",
+        "обст": "lexinfo:partOfSpeech lexinfo:oblAdverb",
+        "опред": "lexinfo:partOfSpeech lexinfo:atributeAdverb",
+        "неизм": "lexinfo:number lexinfo:fixedNumber",
+        "NULL": ""
+    },
+    "type_ssub": {
+        "кач": "lexinfo:partOfSpeech lexinfo:qualityAdverb",
+        "спос": "lexinfo:partOfSpeech lexinfo:wayAdverb",
+        "степ": "lexinfo:partOfSpeech lexinfo:degreeAdverb",
+        "места": "lexinfo:partOfSpeech lexinfo:locationAdverb",
+        "напр": "lexinfo:partOfSpeech lexinfo:directionAdverb",
+        "врем": "lexinfo:partOfSpeech lexinfo:tenseAdverb",
+        "цель": "lexinfo:partOfSpeech lexinfo:goalAdverb",
+        "причин": "lexinfo:partOfSpeech lexinfo:causeAdverb",
+        "NULL": ""
+    },
+    "plural": {
+        "1": "lexinfo:number lexinfo:plural",
+        "0": "lexinfo:number lexinfo:singular",
+        "NULL": ""
+    },
+    "gender": {
+        "муж": "lexinfo:gender lexinfo:masculine",
+        "жен": "lexinfo:gender lexinfo:feminine",
+        "ср": "lexinfo:gender lexinfo:neuter",
+        "общ": "lexinfo:gender lexinfo:commonGender",
+        "NULL": ""
+    },
+    "wcase": {
+        "им": "lexinfo:case lexinfo:nominativeCase",
+        "род": "lexinfo:case lexinfo:genitiveCase",
+        "дат": "lexinfo:case lexinfo:dativeCase",
+        "вин": "lexinfo:case lexinfo:accusativeCase",
+        "тв": "lexinfo:case lexinfo:instrumentalCase",
+        "пр": "lexinfo:case lexinfo:locativeCase",
+        "зват": "lexinfo:case lexinfo:vocativeCase",
+        "парт": "lexinfo:case lexinfo:partitiveCase",
+        "мест": "lexinfo:case lexinfo:locativeCase",
+        "NULL": ""
+    },
+    "comp": {
+        "сравн": "lexinfo:degree lexinfo:comparative",
+        "прев": "lexinfo:degree lexinfo:superlative",
+        "0": "lexinfo:degree lexinfo:positive",
+        "NULL": ""
+    },
+    "soul": {
+        "1": "lexinfo:animacy lexinfo:animate",
+        "0": "lexinfo:animacy lexinfo:inanimate",
+        "NULL": ""
+    },
+    "transit": {
+        "перех": "lexinfo:transitivity lexinfo:transitive",
+        "непер": "lexinfo:transitivity lexinfo:intransitive",
+        "пер/не": "lexinfo:transitivity lexinfo:both",
+        "NULL": ""
+    },
+    "perfect": {
+        "1": "lexinfo:aspect lexinfo:perfective",
+        "2": "lexinfo:aspect lexinfo:imperfective",
+        "NULL": ""
+    },
+    "face": {
+        "1-е": "lexinfo:person lexinfo:firstPerson",
+        "2-е": "lexinfo:person lexinfo:secondPerson",
+        "3-е": "lexinfo:person lexinfo:thirdPerson",
+        "безл": "lexinfo:partOfSpeech lexinfo:impersonalVerb",
+        "NULL": ""
+    },
+    "time": {
+        "прош": "lexinfo:tense lexinfo:past",
+        "наст": "lexinfo:tense lexinfo:present",
+        "буд": "lexinfo:tense lexinfo:future",
+        "NULL": ""
+    },
+    "inf": {
+        "1": "lexinfo:verbFormMood lexinfo:infinitive",
+        "0": "lexinfo:finiteness lexinfo:finite",
+        "NULL": ""
+    },
+    "vozv": {
+        "1": "lexinfo:reflexiveness lexinfo:reflexive",
+        "0": "lexinfo:reflexiveness lexinfo:nonReflexive",
+        "NULL": ""
+    },
+    "nakl": {
+        "пов": "lexinfo:mood lexinfo:imperative",
+        "страд": "lexinfo:voice lexinfo:passiveVoice",
+        "NULL": ""
+    },
+    "short": {
+        "1": "lexinfo:wordForm lexinfo:short",
+        "0": "lexinfo:wordForm lexinfo:full",
+        "NULL": ""
+    }
+}
